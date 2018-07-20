@@ -67,6 +67,8 @@ class TripleStep {
         System.out.println(result);
         result = sut.countWaysToHopSteps(30);
         System.out.println(result);
+        //result = sut.countWaysToHopSteps(40);
+        //System.out.println(result);
 
         BigInteger big_result;
         big_result = sut.countWaysToHopStepsSmartly(10);
@@ -81,6 +83,12 @@ class TripleStep {
         big_result = sut.countWaysToHopStepsSmartly(200);
         System.out.println(big_result);
         big_result = sut.countWaysToHopStepsSmartly(300);
+        System.out.println(big_result);
+        big_result = sut.countWaysToHopStepsSmartly(1000);
+        System.out.println(big_result);
+        big_result = sut.countWaysToHopStepsSmartly(2000);
+        System.out.println(big_result);
+        big_result = sut.countWaysToHopStepsSmartly(3000);
         System.out.println(big_result);
 //        result = sut.countWaysToHopSteps(40);
 //        System.out.println(result);

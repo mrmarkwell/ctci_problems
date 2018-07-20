@@ -5,12 +5,13 @@ import java.util.*;
  */
 class Example {
 
-    public static boolean function() {
+    public boolean function() {
         return true;
     }
 
     public static void main(String[] args) {
-        System.out.println(function());
+        Example sut = new Example();
+        System.out.println(sut.function());
     }
 
 }
